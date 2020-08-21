@@ -1,6 +1,7 @@
 ![Python badge](https://img.shields.io/badge/Python-v3.8-blue.svg)
 
 # 1. Introduction
+
 Cache memory is a high-speed semiconductor memory that is installed between CPU and main memory.
 
 It is often useful to have these things in memory.
@@ -30,6 +31,7 @@ lru.put(1, 1)   # put(key, value)
 print(lru.get(1))   # get(key)
 print(lru.nodeMap)  # print nodeMap
 ```
+
 This is a simple use.<br>
 An example of using this is as follows.
 
@@ -54,17 +56,21 @@ if __name__ == "__main__":
 ```
 
 # 3. When does cache eviction occur?
+
 By default, this cache only expires each time an item is stabbed, and all methods in this class are cleaned up.
 
 # 4. Usage in Python3
+
 Note that this module should probably not be used in python3 projects, since the standard library already has one. The only feature this one has which that one lacks is timed eviction.
 
 # 5. Developer Info
+
 - Developer : Song Kitae
 - Feedback : kitae040522@gmail.com or leave an issue
 - Git : [http://github.com/kitae0522/LRU_Cache](http://github.com/kitae0522/LRU_Cache)
 
 # 6. Referenced Document
+
 - [LRU Cache - 더블에스 devlog - 티스토리](https://doublesprogramming.tistory.com/254)
 - [LRU Cache Algorithm 정리 - Jins' Dev Inside - 티스토리](https://jins-dev.tistory.com/entry/LRU-Cache-Algorithm-%EC%A0%95%EB%A6%AC)
 - [LRU Cache 구현하기 (Least-Recently Used Cache (LRU ...)](https://0th-lab.tistory.com/6)
